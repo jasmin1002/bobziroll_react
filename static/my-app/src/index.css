@@ -1,0 +1,157 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: inherit;
+  font-family: Inter, sans-serif;
+  background-color: #E5E5E5;
+
+  max-width: 80rem;
+  width: 100%;
+  margin: 3rem auto 0;
+}
+
+.container {
+  max-width: 80rem;
+  width: 100%;
+  background-color: #ffffff;
+  /* border-bottom: 1px solid #F5F5F5; */
+  margin: 3rem auto 0;
+}
+
+.header {
+  background-color:#F55A5A;
+  padding: 2rem 4rem;
+  margin-bottom: 2.5rem;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header > .heading {
+  font-size: 1.45rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+
+.header > img {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: .7rem;
+}
+
+.card {
+  padding: 2.8rem 4rem 0;
+  /* border-bottom: 1px solid #F5F5F5; */
+}
+
+.tour {
+  width: 100%;
+  padding-bottom: 2.8rem;
+  border-bottom: 1px solid #F5F5F5;
+  display: flex;
+}
+
+
+.tour-geo {
+  max-width: 28%;
+  height: 180px;
+  margin-right: 2rem;
+}
+
+.tour-info {
+  padding-top: 1.5rem;
+}
+
+.tour-img {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.pin-icon {
+  width: 7px;
+  height: 9.55px;
+  margin-right: 4px;
+}
+
+.tour-location {
+  font-size: 1.14rem;
+  line-height: 1.239rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.tour-country {
+  color: #2B283A;
+  letter-spacing: 1.74px;
+  text-transform: uppercase;
+  margin-right: 1.2rem;
+}
+
+.tour-map {
+  color: #918E9B;
+}
+
+.heading-primary {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #2B283A;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tour-date {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11.24px;
+  line-height: 12px;
+  color: #2B283A;
+  margin-bottom: 9px;
+}
+
+.tour-description {
+  /* width: 32.6rem; */
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: #2B283A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
